@@ -22,6 +22,8 @@ nav {
     color: white;
     height: 80vh;
     align-items: center;
+    font-size: larger;
+    font-weight: bolder;
 }
 .display-4 {
     font-weight: 700;
@@ -61,8 +63,8 @@ overflow: hidden;
 }
 
 #lastMinute .bg-dark {
-    background-color: white !important;
     border: none;
+    background-color: white!important;
 }
 
 footer {
@@ -79,8 +81,7 @@ footer {
 
 #testimonial{
     justify-content: flex-start;
-    height: 250px;
-    width: 80%;
+    height: 260px;
     text-overflow: ellipsis;
     overflow: hidden;
     margin-bottom: 100px;
@@ -92,3 +93,24 @@ footer {
 h3{
     margin-top: 20px!important;
 }
+#dealOfTheDay{
+    margin-bottom: 30px;
+}
+
+#dealOfTheDay .m-4, #dealOfTheDay h3, #dealOfTheDay button{
+    margin-inline: 0!important;
+    padding-inline: 0;
+}
+
+.badge-danger{
+    position: absolute;
+}
+
+#lastMinute img{
+    opacity: 0.5;
+}
+.bg-black{
+    background-color: black;
+    border-radius: .25rem;
+}
+
